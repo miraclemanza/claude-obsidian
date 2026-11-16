@@ -29,7 +29,7 @@ All source pages — summaries of ingested documents, transcripts, articles, and
 
 ## Articles
 
-<!-- Add article source pages here -->
+- [[threadbear-launch-post]] — 2026-11-16 | Thai social post on the Threadbear macOS app; claims verified against README
 
 ---
 

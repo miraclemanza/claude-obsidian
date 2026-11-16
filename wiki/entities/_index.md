@@ -36,7 +36,7 @@ All entity pages — people, organizations, products, and tools.
 
 ## Products & Tools
 
-<!-- Add tool and product pages here -->
+- [[Threadbear]] — open-source macOS app for running Claude Code/Codex threads; background runner, Inbox, iPhone companion
 
 ---
 
