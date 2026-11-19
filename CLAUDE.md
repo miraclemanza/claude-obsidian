@@ -62,3 +62,10 @@ Do NOT read the wiki for general coding questions or things already in this proj
 
 If you configured the MCP server, Claude can read and write vault notes directly.
 See `skills/wiki/references/mcp-setup.md` for setup instructions.
+
+## Search Tool Rules
+
+- Search file contents with `rg` (ripgrep), not `grep`.
+- Find files by name with `fd` (Debian/Ubuntu package `fd-find`, binary `fdfind`), not `find`. Fall back to `find` only if `fd` is not installed.
+- `rg` and `fd` skip files matched by `.gitignore` and hidden files by default. If an expected file is missing from the results, retry with `-u` (`--no-ignore`) or `-uu` (also hidden files) before concluding it does not exist.
+- `.raw/` is hidden, so searching it needs `--hidden` (or `-uu`).
